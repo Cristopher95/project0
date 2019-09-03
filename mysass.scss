@@ -1,0 +1,19 @@
+$color: #563D7C;
+
+%gitText{
+	color: #36757F;
+}
+
+body{
+	div{
+		div{
+			h3{
+				color: $color;
+			}
+		}
+	}	
+}
+
+.step{
+	@extend %gitText
+}

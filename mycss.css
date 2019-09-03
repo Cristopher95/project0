@@ -28,12 +28,29 @@ body {
         background-color: #F06722;
         font-weight: bold;
 }
-#footer{
-        position: sticky;
-        bottom: 10px;
-}
 #body-text{
         margin-left: 30%;
         margin-right: 30%;
         text-align: justify;
+}
+span span{
+        font-weight: bold;
+        color: black;
+}
+
+p > span{
+        color: red;
+}
+
+@media(min-width: 1000px){
+        #footer{
+                position: sticky;
+                bottom: 10px;
+        }
+}
+
+@media(max-width: 999px){
+        #footer{
+                position: static;
+        }
 }
