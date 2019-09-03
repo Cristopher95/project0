@@ -1,0 +1,39 @@
+#top {
+	text-align: center;
+}
+.main_p{
+	color: darkgray;
+}
+body {
+	margin: 50px;
+}
+.image_card{
+	margin-top: 20px;
+	width: 200px;
+}
+.card-head{
+	height: 50%;
+}
+.card-text{
+	text-align: justify;
+}
+.margin-bot{
+	margin-bottom: 20px;
+}
+.col{
+        background-color: rgba(86,61,124,.15);
+        border: 1px solid rgba(86,61,124,.2);
+}
+.first-row{
+        background-color: #F06722;
+        font-weight: bold;
+}
+#footer{
+        position: sticky;
+        bottom: 10px;
+}
+#body-text{
+        margin-left: 30%;
+        margin-right: 30%;
+        text-align: justify;
+}
